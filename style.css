@@ -1,0 +1,47 @@
+.calculator {
+    background-color: #333;
+    width: 500px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+}
+
+#h1 {
+    min-height: 50px;
+}
+
+#text1, #text2 {
+    font-size: 29px;
+    margin: 5px;
+}
+
+#add, #subtract, #Divide, #Multiply {
+    font-size: 29px;
+    width: 40px;
+}
+
+#add:hover, #subtract:hover, #Divide:hover, #Multiply:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.25s ease;
+}
+
+#p {
+    font-size: 22px;
+    color: white;
+}
+
+#result {
+    font-size: 29px;
+    color: yellow;
+}
+
+#clear {
+    margin: 4px;
+}
+
+#clear:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.25s ease;
+}
